@@ -13,13 +13,13 @@ npm install
 
 .env
 
-MONGO_URI=
-JWT_SECRET=
-JWT_LIFETIME=
+    MONGO_URI=
+    JWT_SECRET=
+    JWT_LIFETIME=
 
-    start the project
+start the project
 
-npm run start
+    npm run start
 
 # Tools
 
