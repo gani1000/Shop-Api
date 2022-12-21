@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/profile.css">
+    <title>Profile page</title>
+</head>
+<body>
+    <div class="main-container">
+      <div class="alert">
+        <h1 class="greeting"></h1>
+        <button class="btnAlert" onclick="send()">Register/Sign-up</button>
+      </div>
+      <div class="calculator">
+        <div class="content">
+          <div class="content-recived"></div>
+          <button class="btn first-btn">Add to cart</button>
+          <button class="btn" onclick="shopAPI()">Go to shop again</button>
+          <button class="btn" onclick="logout()">Log out?</button>
+          </div>
+          <div class="additional-info">
+            <div class="btns">
+              <div class="icon">
+                <h4 class="num-icon">0</h4>
+                <i class="fa-2x fa-solid fa-cart-shopping"></i>
+              </div>
+              <button class="increment"><i class="fa-solid fa-angle-up"></i></button>
+              <h4 class="number">0</h4>
+              <button class="decrement"><i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <div class="money">
+              <h4 class="amount">Total Price: </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/profile.js"></script>
+</body>
+</html>

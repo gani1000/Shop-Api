@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Register page</title>
+</head>
+<body>
+    <section>
+        <h3 id="title">Register page</h3>
+        <form class="login">
+            <div class="name-form">
+                <label for="name" class="label">Name</label>
+                <input type="text" name="name" class="name" placeholder="Enter your name...." required/>
+            </div>
+            <div class="email-form">
+                <label for="email" class="label">Email</label>
+                <input type="text" name="email useremail" class="email" placeholder="Enter your Email...." required/>
+            </div>
+            <div class="password-form">
+                <label for="password" class="label">Password</label>
+                <input type="password" name="password userpassword" class="password" placeholder="Enter your password...." required/>
+            </div>
+            <button class="btn-login">Register</button>
+            <div class="formAlert"></div>
+            <div class="register">
+                Already a member?<a href="../html/login.html"> Login</a>
+            </div>
+        </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script defer src="../js/register.js"></script>
+</body>
+</html>

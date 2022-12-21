@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-1100);
+    color: var(--grey-1000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: var(--grey-0);
+    color: var(--black);
+    min-width: 40%;
+    margin: 80px;    
+    max-height: 100vh;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    box-shadow: rgba(0, 0, 0, 0.185) 1px 3px 3px 3px;
+}
+
+#title {
+    color: gray;
+    font-family: 'Karla',sans-serif;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 30px;
+    gap: 40px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.password-form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.email {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    border-style: ridge;
+    font-family: 'Karla',sans-serif;
+}
+
+
+.password {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    border-style: ridge;
+    font-family: 'Karla',sans-serif;
+}
+
+.label {
+    color: #333538;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Karla',sans-serif;
+}
+
+.btn-login {
+    cursor: pointer;
+    appearance: none;
+    color: var(--white);
+    background: var(--primary-500);
+    border: none;
+    font-family: 'Karla',sans-serif;
+    border-radius: var(--borderRadius);
+    padding: 0.375rem 0.75rem;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+}
+  
+.btn-login:hover {
+    color: var(--white);
+    background: var(--primary-700);
+    box-shadow: var(--shadow-2);
+}
+button.small {
+    padding: 0.25rem 0.5rem;
+    font-size: var(--smallText);
+}
+button.hipster {
+    color: var(--primary-500);
+    background: var(--primary-50);
+    box-shadow: var(--shadow-1);
+}
+button.hipster:hover {
+    background: var(--primary-100);
+    box-shadow: var(--shadow-2);
+}
+button.block {
+    width: 100%;
+}
+
+.register {
+    color: #333538;
+    font-weight: 600;
+    font-size: 11.8px;
+    text-align: center;
+    margin-top: -30px;
+    font-family: 'Karla',sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--red-dark);
+    text-decoration: underline;
+}
+
+.formAlert {
+    color: red;
+    margin-top: -3em;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+    height: 0px;
+    font-size: 13px;
+    font-family: 'Karla',sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 1500px) {
+    section {
+        min-width: 30%;
+    }
+}
+
+:root {
+    /* COLORS  */
+    /* primary */
+    --primary-0: #f0efff;
+    --primary-50: #d8d6ff;
+    --primary-100: #c1beff;
+    --primary-200: #aaa5ff;
+    --primary-300: #938dff;
+    --primary-400: #7b74ff;
+    /* main */
+    --primary-500: #645cff;
+    --primary-600: #554ed9;
+    --primary-700: #4640b3;
+    --primary-800: #37338c;
+    --primary-900: #282566;
+    --primary-1000: #191740;
+    --primary-1100: #0a0919;
+    /* grey */
+    --grey-0: #fafbfc;
+    --grey-50: #f2f4f8;
+    --grey-100: #eaedf3;
+    --grey-200: #e2e7ef;
+    --grey-300: #dbe0ea;
+    --grey-400: #d3dae6;
+    --grey-500: #cbd3e1;
+    --grey-600: #adb3bf;
+    --grey-700: #8e949e;
+    --grey-800: #70747c;
+    --grey-900: #51545a;
+    --grey-1000: #333538;
+    --grey-1100: #141516;
+  
+    /* rest */
+    --black: #222;
+    --white: #fff;
+    --red-light: #f8d7da;
+    --red-dark: #842029;
+    --green-light: #d1e7dd;
+    --green-dark: #0f5132;
+  
+    /* typography */
+    --headingFont: 'Inconsolata', monospace;
+    --bodyFont: 'Montserrat', sans-serif;
+    --smallText: 0.7em;
+    /* rest */
+    --backgroundColor: var(--grey-50);
+    --textColor: var(--grey-1000);
+    --borderRadius: 0.25rem;
+    --letterSpacing: 1px;
+    --transition: 0.3s ease-in-out all;
+    --max-width: 1120px;
+    --fixed-width: 600px;
+    /* box shadows */
+    --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Galaxy A",
+        "rating": 3.5,
+        "price": 500,
+        "phone": "galaxy-A",
+        "company": "samsung",
+        "createdAt": "2013-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "Galaxy A 13",
+        "rating": 4,
+        "price": 800,
+        "phone": "galaxy13",
+        "company": "samsung",
+        "createdAt": "2017-01-01T00:00:00.000Z",
+        "featured": true
+    },
+    {
+        "name": "Galaxy AA 22",
+        "rating": 4.2,
+        "price": 1000,
+        "phone": "galaxyz",
+        "company": "samsung",
+        "createdAt": "2019-01-01T00:00:00.000Z",
+        "featured": true
+    },
+    {
+        "name": "Galaxy Z",
+        "rating": 4.1,
+        "price": 600,
+        "phone": "gz",
+        "company": "samsung",
+        "createdAt": "2012-01-01T00:00:00.000Z",
+        "featured": true
+    },
+    {
+        "name": "Galaxy Z 12",
+        "rating": 3.2,
+        "price": 400,
+        "phone": "g12",
+        "company": "samsung",
+        "createdAt": "2015-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "Huawei XS",
+        "rating": 3.9,
+        "price": 500,
+        "phone": "huawei-meta",
+        "company": "huawei",
+        "createdAt": "2015-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "Huawei meta",
+        "rating": 3.9,
+        "price": 800,
+        "phone": "huawei-nova",
+        "company": "huawei",
+        "createdAt": "2016-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "Huawei nova 10",
+        "rating": 3.6,
+        "price": 700,
+        "phone": "huawei-white",
+        "company": "huawei",
+        "createdAt": "2015-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "iphon 10",
+        "rating": 3.8,
+        "price": 1000,
+        "phone": "iphone10",
+        "company": "apple",
+        "createdAt": "2017-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "iphon 11",
+        "rating": 4.2,
+        "price": 1200,
+        "phone": "iphone11",
+        "company": "apple",
+        "createdAt": "2019-01-01T00:00:00.000Z",
+        "featured": true
+    },
+    {
+        "name": "iphon 12",
+        "rating": 4.8,
+        "price": 1800,
+        "phone": "iphone12",
+        "company": "apple",
+        "createdAt": "2021-01-01T00:00:00.000Z",
+        "featured": true
+    },
+    {
+        "name": "iphon 13",
+        "rating": 5,
+        "price": 2200,
+        "phone": "iphone 13",
+        "company": "apple",
+        "createdAt": "2022-01-01T00:00:00.000Z",
+        "featured": true
+    },
+    {
+        "name": "iphon 7",
+        "rating": 2.8,
+        "price": 600,
+        "phone": "iphone7",
+        "company": "apple",
+        "createdAt": "2016-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "iphon 8",
+        "rating": 3.4,
+        "price": 700,
+        "phone": "iphone8",
+        "company": "apple",
+        "createdAt": "2016-01-01T00:00:00.000Z",
+        "featured": false
+    },
+    {
+        "name": "sony 2",
+        "rating": 3.6,
+        "price": 700,
+        "phone": "sony2",
+        "company": "sony",
+        "createdAt": "2015-01-01T00:00:00.000Z",
+        "featured": false
+    }
+]

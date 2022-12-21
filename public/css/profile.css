@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar {
+    margin-right: 7rem;
+}
+
+
+.img-profile {
+    width: 250px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+}
+
+.btns > button {
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    width: 22px;
+}
+
+.alert {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.username {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.btnAlert {
+    width: 100%;
+    height: 2rem;
+    appearance: none;
+    border-style: none;
+    border-radius: 6px;
+    background-color: var(--white);
+    font-weight: 600;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+}
+
+.greeting {
+    color: #ffffff;
+}
+
+.amount {
+    color: rgb(106, 253, 48);
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+
+.money {
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon > h4 {
+    z-index: 1;
+}
+
+
+/* .fa-circle {
+    color: red;
+    
+} */
+
+.fa-cart-shopping {
+    margin-top: 30px;
+    margin-left: -27px;
+    color: red;
+}
+
+.num-icon {
+    color: white;
+    font-size: 20px;
+}
+
+i {
+    color: rgb(250, 250, 250);
+}
+
+.number {
+    color: white;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.kids {
+    margin-top: 2rem;
+}
+
+.kids > h4{
+    color: rgb(150, 148, 148);
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    margin: 3px;
+}
+
+.btn {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.69rem;
+    appearance: none;
+    border-style: none;
+    border-radius: 6px;
+    background-color: var(--white);
+    font-weight: 600;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+}
+
+.btn > a, .btnAlert > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Karla',sans-serif;
+}
+
+.btn:hover, .btnAlert:hover {
+    color: black;
+    cursor: pointer;
+    background: rgb(206, 206, 206);
+    box-shadow: var(--shadow-2);
+}
+
+:root {
+    /* COLORS  */
+    /* primary */
+    --primary-0: #f0efff;
+    --primary-50: #d8d6ff;
+    --primary-100: #c1beff;
+    --primary-200: #aaa5ff;
+    --primary-300: #938dff;
+    --primary-400: #7b74ff;
+    /* main */
+    --primary-500: #645cff;
+    --primary-600: #554ed9;
+    --primary-700: #4640b3;
+    --primary-800: #37338c;
+    --primary-900: #282566;
+    --primary-1000: #191740;
+    --primary-1100: #0a0919;
+    /* grey */
+    --grey-0: #fafbfc;
+    --grey-50: #f2f4f8;
+    --grey-100: #eaedf3;
+    --grey-200: #e2e7ef;
+    --grey-300: #dbe0ea;
+    --grey-400: #d3dae6;
+    --grey-500: #cbd3e1;
+    --grey-600: #adb3bf;
+    --grey-700: #8e949e;
+    --grey-800: #70747c;
+    --grey-900: #51545a;
+    --grey-1000: #333538;
+    --grey-1100: #141516;
+  
+    /* rest */
+    --black: #222;
+    --white: #fff;
+    --red-light: #f8d7da;
+    --red-dark: #842029;
+    --green-light: #d1e7dd;
+    --green-dark: #0f5132;
+  
+    /* typography */
+    --headingFont: 'Inconsolata', monospace;
+    --bodyFont: 'Montserrat', sans-serif;
+    --smallText: 0.7em;
+    /* rest */
+    --backgroundColor: var(--grey-50);
+    --textColor: var(--grey-1000);
+    --borderRadius: 0.25rem;
+    --letterSpacing: 1px;
+    --transition: 0.3s ease-in-out all;
+    --max-width: 1120px;
+    --fixed-width: 600px;
+    /* box shadows */
+    --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Stor Api</title>
+</head>
+<body>
+    <header>
+        <img src="../images/391889-iphone-13-4k-pc-wallpaper.jpg" alt="">
+    </header>
+    <div class="main">
+        <aside>
+            <h3 id="sort-options">Sort Options:</h3>
+            <div class="side-elements">
+                <div class="form-submit two first">
+                    <label class="prices">Sort</label>
+                    <select class="name onchangeName">
+                        <option>--</option>
+                        <option value="z-a">z-a</option>
+                        <option value="a-z">a-z</option>
+                    </select>
+                </div>
+                <div class="form-submit two second">
+                    <label class="price">Price</label>
+                    <select class="prices onchange">
+                        <option>--</option>
+                        <option value="high">high price</option>
+                        <option value="low">low price</option>
+                    </select>
+                </div>
+                <div class="form-submit two">
+                    <label class="price">Rating</label>
+                    <select class="rating onchangeRating">
+                        <option>--</option>
+                        <option value="high">high rating</option>
+                        <option value="low">low rating</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn-side">
+                <p>create an account and enjoy exploring by adding items to your list!</p>
+                <button class="btn"><a href="./login.html">Create an account</a></button>
+                <button class="btn"><a href="./welcomepage.html">Go to Home Page</a> </button>
+            </div>
+        </aside>
+        <div class="container-main">
+            <div class="container">
+                <div class="check">
+                    <button class="submit-btn">search</button>
+                    <input type="text" id="company" placeholder="Enter company name...">
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/shopAPI.js" type="module"></script>
+</body>
+</html>

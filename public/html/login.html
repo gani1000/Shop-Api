@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login page</title>
+</head>
+<body>
+    <section>
+        <h3 id="title">Login page</h3>
+        <form class="login" action="">
+            <div class="email-form">
+                <label for="email" class="label">Email</label>
+                <input type="text" name="email" class="email" placeholder="Enter your Email...." />
+            </div>
+            <div class="password-form">
+                <label for="password" class="label">Password</label>
+                <input type="password" name="password" class="password" placeholder="Enter your password...."/>
+            </div>
+            <button class="btn-login">Login</button>
+            <div class="formAlert"></div>
+            <div class="register" >
+                Do you want to be a member?<a href="../html/register.html"> Register</a>
+            </div>
+        </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script defer src="../js/login.js"></script>
+</body>
+</html>
