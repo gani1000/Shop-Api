@@ -40,7 +40,7 @@ start the project
  
  ![8](https://user-images.githubusercontent.com/107857762/209581420-f55b4991-0c13-4dc3-8c7e-933ac193dda1.PNG)
 
--Auth0 login
+-Auth0- JWT login/register
 
 
 ![Capture8](https://user-images.githubusercontent.com/107857762/209581451-bb1e03a6-65e2-418c-83cc-a0dd890b2738.PNG)
