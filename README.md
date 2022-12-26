@@ -29,7 +29,7 @@ start the project
    -Welcome Page
    
    Note:  you can login/register from here to access your profile, in your profile you will be able to add any item you wish 
-   Ex: "add to Cart" you can do that by
+   you can do that by
    clicking on the items name and that will be send to your.
  
  
@@ -46,4 +46,4 @@ start the project
 ![Capture8](https://user-images.githubusercontent.com/107857762/209581451-bb1e03a6-65e2-418c-83cc-a0dd890b2738.PNG)
 
 
-
+Important: front-end code can be refactor by using webpack and bind react.js framework. the application can be extended more!
